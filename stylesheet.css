@@ -1,0 +1,93 @@
+
+img {
+    display: block;
+    margin: 10px auto -80px auto;
+}
+
+.img-responsive {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 60px;
+}
+
+body {
+    background-image: url("Images/blackwood.jpg");
+    background-repeat: repeat;
+}
+
+#name {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    margin-top: 60px;
+}
+
+#title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Cinzel', serif;
+    margin-top: 30px;
+}
+
+hr {
+    border: transparent;
+}
+
+.navbar-header {
+    font-family: 'Cinzel', serif;
+    color: white;
+    padding-left: 20px;
+    height: 150px;
+}
+
+li {
+    font-family: 'Cinzel', serif;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-top: 0;
+    font-weight: bold;
+	color: white;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+.navbar-toggle {
+    margin-top: 55px;
+}
+
+iframe {
+    display: block;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 750px;
+    width: auto;
+}
+
+#portfolio {
+    margin-top: 200px;
+	margin-bottom: 450px;
+}
+
+.container {
+	background-color: #111314;
+	
+	border-bottom: none;
+	width: 100%;
+}
+
+h1 {
+    font-family: Cinzel;
+    color: white;
+    text-align: center;
+}
