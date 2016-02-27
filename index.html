@@ -9,6 +9,7 @@
       <!-- Bootstrap -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       <!-- Bootstrap -->
@@ -39,14 +40,45 @@
                 </div>
             </div>
         </nav>
+        
+        <div class="container" id="frontpage">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <h1 id="name">Hi, I'm Josh.</h1>
+                    <h2 id="title">I'm a freelance front-end web developer based in Provo UT.</h2>
+                    <br>
+                    <hr>
+                    <br><br>
+                    <p>If you are a business seeking a web presence, you can get in touch with me <a id="referral" href="contact.html">here</a>.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <img src="Images/JB_Yellowstone.jpg" class="img-responsive"/>
+                </div>
+            </div>
+        </div>
 
-        <h1 id="name">Josh Barnhouse</h1>
-		<h2 id="title">Web Developer</h2>
-        <hr>
-        <img src="Images/JB_Yellowstone.jpg" class="img-responsive"/>
+      <div id="footer">
+            <div class="social_icons"><a href="https://www.linkedin.com/in/joshbarnhouse" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></div>
+            <div class="social_icons"><a href="https://twitter.com/joshbarnhouse" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></div>
+            <div class="social_icons"><a href="https://www.facebook.com/jbarnhouse" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a></div>
+            <div class="social_icons"><a href="https://github.com/jbarnhouse" target="_blank"><i class="fa fa-github fa-2x"></i></a></div>
+      </div>
+        
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-<!--    <script src="js/bootstrap.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-74354436-1', 'auto');
+        ga('send', 'pageview');
+    </script>
   </body>
 </html>

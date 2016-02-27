@@ -6,21 +6,27 @@ img {
 
 .img-responsive {
     border-radius: 50%;
-    border: 5px solid white;
-    margin-bottom: 60px;
+    border: 3px solid white;
+    margin-bottom: 10px;
 }
 
 body {
     background-image: url("Images/blackwood.jpg");
     background-repeat: repeat;
+    font-family: 'Cinzel', serif;
 }
 
 #name {
-    color: #FFFFFF;
     text-align: center;
     font-size: 3em;
     font-family: 'Cinzel', serif;
-    margin-top: 60px;
+}
+
+.row {
+    display: inline-block;
+    margin-top: 20px;
+    margin: 25px auto 25px auto;
+    width: 100%;
 }
 
 #title {
@@ -32,7 +38,8 @@ body {
 }
 
 hr {
-    border: transparent;
+    border: 2px solid #ED1F24;
+    width: 75px;
 }
 
 .navbar-header {
@@ -40,6 +47,7 @@ hr {
     color: white;
     padding-left: 20px;
     height: 150px;
+    background-color: #111314;
 }
 
 li {
@@ -50,6 +58,14 @@ li {
     padding-top: 0;
     font-weight: bold;
 	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ED1F24;
 }
 
 a {
@@ -64,16 +80,6 @@ a:visited {
     margin-top: 55px;
 }
 
-iframe {
-    display: block;
-    margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    height: 750px;
-    width: auto;
-}
-
 #portfolio {
     margin-top: 200px;
 	margin-bottom: 450px;
@@ -81,13 +87,101 @@ iframe {
 
 .container {
 	background-color: #111314;
-	
 	border-bottom: none;
 	width: 100%;
+    margin: 0 auto;
+}
+
+#frontpage {
+    background-color: transparent;
+    margin: 0 auto;
+    color: white;
+}
+
+#contactform {
+    background-color: transparent;
+    margin-top: 50px;
+    width: 100%;
+}
+
+form {
+    margin: 0 auto 50px auto;
+    color: white;
 }
 
 h1 {
     font-family: Cinzel;
     color: white;
     text-align: center;
+}
+
+#referral {
+    text-decoration: underline;
+}
+
+#referral:hover {
+    color: red;
+}
+p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+legend {
+    border: none;
+}
+
+.btn {
+    color: white;
+}
+
+#footer {
+    position: relative;
+    width: 200px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.social_icons {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.fa {
+    position: relative;
+    margin: 0 auto;
+    color: white;
+}
+
+.fa-facebook-official:hover {
+    color: #4267B2;
+}
+
+.fa-facebook-official:visited {
+    color: white;
+}
+
+.fa-twitter:hover {
+    color: #77C7F7;
+}
+
+.fa-twitter:visited {
+    color: white;
+}
+
+.fa-linkedin:hover {
+    color: #1A84BC;
+}
+
+.fa-linkedin:visited {
+    color: white;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-github:visited {
+    color: white;
 }
